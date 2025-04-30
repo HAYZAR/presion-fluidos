@@ -1,0 +1,141 @@
+---
+title: "Evaluación de Física: Densidad y Presión"
+author: "Hayzar Hernández Bustos/IED Los Rosales"
+date: today
+format:
+  html:
+    embed-resources: true  # <--- Cambia esto a true
+    css: styles.css
+lang: es
+echo: false
+---
+
+**1.** La densidad es una propiedad característica de la materia que relaciona la masa de una sustancia con el volumen que ocupa. ¿Cuál de las siguientes expresiones matemáticas representa correctamente la definición de densidad (ρ)?
+
+**Competencia:** Uso Comprensivo del Conocimiento Científico (UCcC)
+
+A.  $\rho = \text{Masa} / \text{Volumen}$
+B.  $\rho = \text{Volumen} / \text{Masa}$
+C.  $\rho = \text{Masa} \times\text{Volumen}$
+D.  $\rho = \text{Masa} + \text{Volumen}$
+
+<!-- Respuesta Correcta: A -->
+
+------------------------------------------------------------------------
+
+**2.**  Un estudiante tiene dos cubos sólidos, X e Y, del mismo tamaño (igual volumen). Al ponerlos en una balanza, encuentra que el cubo X tiene mayor masa que el cubo Y. ¿Qué puede concluir correctamente el estudiante sobre las densidades de los cubos?
+
+**Competencia:** Indagación (I)
+
+A.  La densidad de X es menor que la densidad de Y.
+B.  La densidad de X es igual a la densidad de Y.
+C.  La densidad de X es mayor que la densidad de Y.
+D.  No se puede determinar la relación de densidades sin saber el volumen exacto.
+
+<!-- Respuesta Correcta: C -->
+
+**3.**  La presión se define como la fuerza ejercida perpendicularmente sobre una unidad de área. Si una misma fuerza $F$ se aplica sobre dos superficies, una de área $A_1$ y otra de área $A_2$ mucho menor $A_1$ ($A_2 > A_1$), ¿dónde será mayor la presión ejercida?
+
+**Competencia:** Explicación de Fenómenos (EF)
+
+A.  La presión será mayor sobre la superficie de área $A_1$
+B.  La presión será mayor sobre la superficie de área $A_2$
+C.  La presión será igual en ambas superficies porque la fuerza es la misma.
+D.  La presión no depende del área, solo de la fuerza aplicada.
+
+<!-- Respuesta Correcta: B -->
+
+**4.** Un ladrillo puede colocarse sobre una mesa apoyado sobre cualquiera de sus caras (cara ancha, cara media, cara estrecha). Si el peso del ladrillo es constante, ¿en qué posición ejercerá la mayor presión sobre la mesa?
+
+**Competencia:** Explicación de Fenómenos (EF)
+
+A.  Apoyado sobre su cara más ancha (mayor área).
+B.  Apoyado sobre su cara media.
+C.  Apoyado sobre su cara más estrecha (menor área).
+D.  La presión es la misma en cualquier posición porque el peso no cambia.
+
+<!--  Respuesta Correcta: C -->
+
+**5.** La presión atmosférica es la presión ejercida por el peso del aire sobre la superficie terrestre. ¿Cómo varía generalmente la presión atmosférica con la altitud?
+
+**Competencia:** Uso Comprensivo del Conocimiento Científico (UCcC)
+
+A.  Aumenta a medida que aumenta la altitud.
+B.  Disminuye a medida que aumenta la altitud.
+C.  Permanece constante independientemente de la altitud.
+D.  Varía de forma impredecible con la altitud.
+
+<!-- Respuesta Correcta: B -->
+
+**6.** En el Sistema Internacional de Unidades (SI), la unidad de medida para la presión es el Pascal (Pa). ¿Cuál de las siguientes combinaciones de unidades fundamentales define correctamente al Pascal?
+
+**Competencia:** Uso Comprensivo del Conocimiento Científico (UCcC)
+
+A.  Newton / metro (N/m)
+B.  Kilogramo / metro cúbico ( kg/m ³)
+C.  Newton / metro cuadrado (N/m²)
+D.  Julio / segundo (J/s)
+
+<!-- Respuesta Correcta: C -->
+
+**7.** Un buzo se encuentra nadando en el mar. A medida que desciende a mayor profundidad, la presión que experimenta aumenta. ¿Cuál es la razón principal de este aumento de presión?
+
+**Competencia:** Explicación de Fenómenos (EF)
+
+A.  La densidad del agua aumenta significativamente con la profundidad.
+B.  La temperatura del agua disminuye con la profundidad.
+C.  El peso de la columna de agua por encima del buzo es mayor.
+D.  La presión atmosférica sobre la superficie del agua disminuye.
+
+<!-- Respuesta Correcta: C -->
+
+---
+
+**8.** La figura muestra un sistema de vasos comunicantes que contienen un líquido en equilibrio. Se observa que el nivel del líquido es el mismo en todas las secciones, independientemente de su forma. Si comparamos la presión hidrostática (debida al líquido) en puntos situados en el fondo horizontal común a todas las secciones, ¿qué se puede afirmar?
+
+**Competencia:** Indagación (I)
+
+![Vasos Comunicantes](vasos-comunicantes.png){fig-align="center" width="80%"}
+
+
+A.  La presión es mayor bajo la sección más ancha.
+B.  La presión es mayor bajo la sección más estrecha.
+C.  La presión depende del volumen total de líquido en cada sección vertical.
+D.  La presión es la misma en el fondo debajo de todas las secciones.
+
+<!-- Respuesta Correcta: D 
+# (La presión hidrostática P = ρgh solo depende de la densidad del fluido (ρ), la gravedad (g) y la profundidad (h). Como la altura del líquido es la misma en todos los vasos comunicantes y están al mismo nivel de fondo, la presión en el fondo es igual en todos ellos, independientemente de la forma o el volumen de la sección superior). -->
+
+**9.** Un objeto sólido tiene una masa de 200 gramos y un volumen de 50 cm³. ¿Cuál es la densidad del objeto?
+
+**Competencia:** Indagación (I)
+
+A.  $0.25\; g/cm^3$
+B.  $4\; g/cm^3$
+C.  $10000\; g/cm^3$
+D.  $150\; g/cm^3$
+
+<!-- Respuesta Correcta: B 
+# (ρ = Masa / Volumen = 200 g / 50 cm³ = 4 g/cm³) -->
+
+**10.** Una fuerza de 50 Newtons se aplica uniformemente sobre una superficie cuadrada de 2 metros de lado. ¿Cuál es la presión ejercida sobre la superficie?
+
+**Competencia:** Indagación (I)
+
+A.  25 Pa
+B.  100 Pa
+C.  12.5 Pa
+D.  50 Pa
+
+<!-- Respuesta Correcta: C 
+# (Área = lado * lado = 2 m * 2 m = 4 m². Presión = Fuerza / Área = 50 N / 4 m² = 12.5 N/m² = 12.5 Pa) -->
+
+### Formulario de Respuestas --\>
+
+Introduce tu nombre y selecciona tus respuestas a continuación. Haz clic en "Enviar" al finalizar.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKrKJewlLsCgIK8PgqfNW5VosaLk9wdGLM1txu8NKTC1zFhg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">
+
+Cargando…
+
+</iframe>

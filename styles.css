@@ -1,0 +1,27 @@
+body {
+  max-width: 900px; /* Ancho máximo del contenido principal (ajusta este valor si quieres) */
+  margin-left: auto;  /* Centra el contenido horizontalmente */
+  margin-right: auto; /* Centra el contenido horizontalmente */
+  padding-left: 15px; /* Espacio interno a la izquierda para que el texto no toque el borde */
+  padding-right: 15px;/* Espacio interno a la derecha */
+  line-height: 1.6;   /* Mejora la legibilidad del texto (opcional) */
+}
+
+/* Para justificar el texto de los párrafos (si realmente lo deseas) */
+p {
+  text-align: justify;
+}
+
+/* Asegurarse que el iframe también respete un poco el contenedor si es necesario */
+.form-container iframe { /* Si usaste la clase .form-container como sugerí antes */
+    max-width: 100%;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+/* O si no usaste contenedor específico para el iframe, puedes apuntar directamente */
+iframe[src*="google.com/forms"] { /* Apunta a iframes cuyo src contiene 'google.com/forms' */
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block; /* Ayuda a veces con márgenes */
+    margin: 20px auto; /* Centra el iframe si es más estrecho que el contenedor */
+}
