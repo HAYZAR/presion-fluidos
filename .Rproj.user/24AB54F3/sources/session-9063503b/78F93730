@@ -3,7 +3,7 @@
     "path": "D:/Rosales 2025/Lecturas/densidad_y_presion/densidad-presion.qmd",
     "project_path": "densidad-presion.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2641107803",
     "contents": "",
     "dirty": false,
     "created": 1745972934303.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "93,353",
-        "scrollLine": "87",
+        "cursorPosition": "136,220",
+        "scrollLine": "116",
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
@@ -21,11 +21,11 @@
         "rmdVisualModeLocation": "2303:1149"
     },
     "folds": "",
-    "lastKnownWriteTime": 1746031473,
+    "lastKnownWriteTime": 1746032325,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746031473758,
+    "last_content_update": 1746032325268,
     "read_only": false,
     "read_only_alternatives": []
 }
