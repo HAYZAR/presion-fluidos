@@ -10,6 +10,12 @@ lang: es
 echo: false
 ---
 
+<!--![Encabezado Evaluación Física](Encab_Taller_Physics_Rosales.svg){fig-align="center" width="80%"} -->
+
+::: {column="page-inset"}
+![Encabezado Evaluación Física](Encab_Taller_Physics_Rosales.svg){fig-align="center" width="100%"} 
+:::
+
 **1.** La densidad es una propiedad característica de la materia que relaciona la masa de una sustancia con el volumen que ocupa. ¿Cuál de las siguientes expresiones matemáticas representa correctamente la definición de densidad (ρ)?
 
 **Competencia:** Uso Comprensivo del Conocimiento Científico (UCcC)
@@ -134,8 +140,14 @@ D.  50 Pa
 
 Introduce tu nombre y selecciona tus respuestas a continuación. Haz clic en "Enviar" al finalizar.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJoD-KXloykZ_bh_Pr8Kt0L4DoKrhYZrQLik0Eepfx7yJu2Q/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfTULfHehT7RlZ1b0tEPz3ZupocyvmyQB-yuWDmZGFd1oYc0Q/viewform" target="_blank">
+  Haz clic aquí para abrir el formulario
+</a>
 
-Cargando…
 
-</iframe>
+
+quarto::quarto_render("densidad-presion.qmd", output_file = "index.html")
+<!--git add index.html
+git commit -m "Corrijo rutas a recursos"
+git push -->
+
