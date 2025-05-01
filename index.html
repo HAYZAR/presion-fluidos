@@ -22,6 +22,17 @@
     <p><strong>Autor:</strong> Hayzar Hernández Bustos – IED Los Rosales</p>
     <p><strong>Fecha de publicación:</strong> 30 de abril de 2025</p>
   </div>
+  
+  <div class="pregunta">
+  <p>Nombre completo:</p>
+  <input type="text" id="nombre" name="nombre" required>
+</div>
+
+<div class="pregunta">
+  <p>Grado:</p>
+  <input type="text" id="grado" name="grado" required>
+</div>
+
 
   <h2>Responda seleccionando una única opción por pregunta</h2>
 
@@ -124,17 +135,54 @@
 
   <div id="resultado"></div>
 
-  <script>
-    function evaluar() {
-      const respuestasCorrectas = { p1:'a', p2:'c', p3:'b', p4:'c', p5:'b', p6:'c', p7:'c', p8:'d', p9:'b', p10:'c' };
-      let puntaje = 0;
-      for (let key in respuestasCorrectas) {
-        const sel = document.querySelector(`input[name="${key}"]:checked`);
-        if (sel && sel.value === respuestasCorrectas[key]) puntaje++;
-      }
-      document.getElementById("resultado").innerHTML = `Tu puntaje es: ${puntaje} / 10`;
+<script>
+  function evaluar() {
+    const respuestasCorrectas = { p1:'a', p2:'c', p3:'b', p4:'c', p5:'b', p6:'c', p7:'c', p8:'d', p9:'b', p10:'c' };
+    let puntaje = 0;
+    let datos = {};
+
+    // Capturar nombre y grado
+    const nombre = document.getElementById("nombre").value.trim();
+    const grado = document.getElementById("grado").value.trim();
+
+    if (!nombre || !grado) {
+      alert("Por favor completa tu nombre y grado antes de enviar.");
+      return;
     }
-  </script>
+
+    datos['nombre'] = nombre;
+    datos['grado'] = grado;
+
+    // Capturar respuestas y calcular puntaje
+    for (let key in respuestasCorrectas) {
+      const seleccion = document.querySelector(`input[name="${key}"]:checked`);
+      if (seleccion) {
+        datos[key] = seleccion.value;
+        if (seleccion.value === respuestasCorrectas[key]) {
+          puntaje++;
+        }
+      } else {
+        datos[key] = '';
+      }
+    }
+
+    datos['puntaje'] = puntaje;
+
+    // Mostrar puntaje en pantalla
+    document.getElementById("resultado").innerHTML = `Tu puntaje es: ${puntaje} / 10`;
+
+    // Enviar a Google Sheets
+    fetch('https://script.google.com/macros/s/AKfycbxgknA-nfy8CXCp9zskVU78N4gZqT-DvN9kqJRYU77r6wGw1mLPmLW2jax-hU7KOFnqPA/exec', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(datos)
+    }).then(() => {
+      console.log("Respuestas enviadas");
+    });
+  }
+</script>
+
 
 </body>
 </html>
